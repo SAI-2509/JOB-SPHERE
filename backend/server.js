@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());//middleware to read json
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'https://job-sphere-frontend-sdno.onrender.com'],
     methods: ['GET', 'POST'],
     credentials: true, 
 }));
