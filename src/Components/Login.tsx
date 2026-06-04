@@ -12,7 +12,7 @@ function Login() {
     console.log(data);
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/Login",
+        "https://job-sphere-backend-0289.onrender.com/api/auth/Login",
         data,
       );
       if (response.status == 201) {
