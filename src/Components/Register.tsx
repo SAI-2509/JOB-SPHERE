@@ -1,4 +1,3 @@
-import React from "react";
 import "../Register.css";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
@@ -10,7 +9,6 @@ function Register() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
   } = useForm();
   const navigate = useNavigate();
   const submitCall = async (data: any) => {

@@ -1,9 +1,7 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import "../Login.css";
 import Navbar from "./Navbar";
-import { useNavigate } from "react-router-dom";
 
 
 function Login() {

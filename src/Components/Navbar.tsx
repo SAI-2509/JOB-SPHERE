@@ -1,11 +1,9 @@
 
 import "../App.css";
 import SearchBar from "../Components/SearchBar";
-import React, { useState } from "react";
+import { useState } from "react";
 import Searchresults from "../Components/Searchresults";
 import { Link } from 'react-router-dom';
-import Applied from "../Components/Applied";
-import Home from "../Components/Home";
 
 type Job = {
   id: number;

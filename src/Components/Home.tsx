@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Navbar.tsx";
 import { Link } from "react-router-dom";
 import homeImg from "../assests/home-image.png";

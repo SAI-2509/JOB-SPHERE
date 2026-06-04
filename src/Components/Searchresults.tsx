@@ -1,4 +1,3 @@
-import React from "react";
 import "../Searchresults.css";
 import { Link } from "react-router-dom";
 
