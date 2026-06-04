@@ -1,0 +1,12 @@
+.Title{
+margin-left: 15px;
+margin-right: 475px;
+font-size: 40px;
+
+}
+.btn{
+    padding: 10px;
+    border-radius: 1px;
+    width:90px;
+    background-color: #ffffff;
+}

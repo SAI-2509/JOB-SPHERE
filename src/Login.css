@@ -1,0 +1,48 @@
+.logincontainer{
+    display: flex;
+  justify-content: center;
+  padding: 50px;
+
+  font-family: sans-serif;
+  height: 500%;
+  
+}
+.loginform h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+.loginform{
+ background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 50px;
+  
+}
+.group {
+  margin: 10px;
+  padding: 10px;
+}
+
+.group label {
+   font-weight: bold;
+
+}
+
+.group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  
+  color: white;
+  border-radius: 8px
+}

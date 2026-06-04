@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  align-items: flex-start;
+  
+  margin-top: 60px;
+  padding: 2rem 2rem;
+}
+
+.hero-image img {
+  max-width: 600px;
+  width: 450px;
+  height: auto;
+  margin-top: 90px ;
+ 
+}
+
+#box {
+  margin: 0;
+  padding: 0;
+}
+
+#heading {
+  font-size: 50px;
+  margin: 50px 0 12px 0;
+  margin-bottom: 2rem;
+}
+
+.sub-heading {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+#box2 {
+  margin-top: 3rem;
+  display: flex;
+  gap: 12px;
+}
+
+.btn-home {
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid black;
+  width: auto;
+  background-color:#0D1A63;
+  color: #f9f6f6;;
+}
+.job-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.job-card {
+  border: 1px solid #111;
+  padding: 1rem;
+  background: #fff;
+}
+
+.job-tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.job-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.job-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+

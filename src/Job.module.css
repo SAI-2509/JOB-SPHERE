@@ -1,0 +1,32 @@
+.card{
+    border: 1px solid rgb(11, 11, 11);
+    height: 210px;
+    width: 300px;
+    color: black;
+    margin: 5px 15px;
+   box-shadow: 2px 2px 3px #9ca8f0;
+    padding:10px;
+    display: inline-block;
+    line-height: 25px ;
+    border-radius: 3px;
+    font-size: medium;
+    background-color: white;
+   
+}
+.apply{
+    text-align: center;
+}
+.buttonstyles{
+    display: flex;
+    justify-content: center;
+}
+
+.card button{
+    font-size: medium;
+    color: #ffffff;
+     background-color:#0D1A63;
+     border: 1px solid #000000;
+     border-radius: 4px;
+     margin: 3px;
+     padding: 5px 5px;  
+}

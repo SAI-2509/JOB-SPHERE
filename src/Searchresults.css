@@ -1,0 +1,25 @@
+.resultlist {
+ background-color: #fffefe;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  overflow-y: auto;
+  width: 300px;
+  font-size: large;
+  position: absolute;
+  max-height: 200px;
+ left: 30px;
+ margin-top: 35px;
+ color: black;
+
+}
+
+.result-link{
+  text-decoration: none;
+color: inherit;
+}
+.resultlist div:hover{
+  background-color: rgb(186, 189, 189);
+
+}
+

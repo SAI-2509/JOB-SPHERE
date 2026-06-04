@@ -1,0 +1,7 @@
+.card {
+  display: grid;
+  gap: 1px;
+}
+.heading{
+    justify-content: center;
+}
