@@ -1,8 +1,9 @@
+import React from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import "../Login.css";
 import Navbar from "./Navbar";
-
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const { register, handleSubmit } = useForm();
@@ -10,15 +11,13 @@ function Login() {
     console.log(data);
     try {
       const response = await axios.post(
-        "https://job-sphere-backend-0289.onrender.com/api/auth/Login",
+        "https://job-sphere-backend-0289.onrender.com",
         data,
       );
       if (response.status == 201) {
         alert("Login Successfully");
       }
       // after login success
-
-  
     } catch (error) {
       console.log("Invalid email or password");
     }
